@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="2"
+        app:rowCount="4"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="358dp">
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:text="Button"
+            android:backgroundTint="@color/cardview_dark_background"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
